@@ -26,3 +26,5 @@ const sequelize = new Sequelize(
     dialectOptions: getSslConfig()
   }
 );
+
+module.exports = sequelize;
