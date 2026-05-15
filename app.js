@@ -39,15 +39,9 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => {
   res.send(`
-<<<<<<< HEAD
-    <h1>Hello World - [JAVETT PINEDA]</h1>
-    <p>La aplicacion funciona en Render.</p>
-    <p>Puerto: ${port} | Entorno: ${process.env.NODE_ENV || 'development'}</p>
-=======
-    Hello World - [REEMPLAZAR POR SU NOMBRE]
+    Hello World - [JAVETT PINEDA]
     La aplicacion funciona en Render.
     Puerto: ${port} | Entorno: ${process.env.NODE_ENV || 'development'}
->>>>>>> origin/main
   `);
 });
 // app.use('/',         productRoutes);
